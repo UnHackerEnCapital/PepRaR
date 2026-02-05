@@ -14,6 +14,19 @@ Los identificadores CVE asociados son:
 - **CVE-2025-6218**
 
 ---
+
+### ⚠️ Condiciones de la Vulnerabilidad
+
+Es importante tener en cuenta que este vector de ataque no es universal y requiere condiciones específicas para ser exitoso:
+
+* **Sistemas Afectados:** Únicamente sistemas operativos **Windows**.
+* **Versiones de WinRAR:** Afecta a versiones **7.12 o anteriores** (se recomienda la versión incluida en este repo para la PoC).
+* **Modo de Extracción:** El exploit solo es efectivo en extracciones realizadas mediante la **interfaz gráfica (GUI)**. Las extracciones por línea de comandos suelen ignorar el vector de Path Traversal utilizado en esta técnica.
+
+> 📁 **Nota:** En la carpeta `/bin` de este repositorio, se encuentra el instalador de la versión exacta de WinRAR utilizada en este laboratorio para garantizar que puedas replicar los resultados.
+
+---
+---
 <br>
 
 ## 🔍 ¿Qué es este laboratorio?
