@@ -130,9 +130,9 @@ Damos los créditos correspondientes a los investigadores originales por el desc
  <br>
 
  ## 🛠️ Requisitos
- * **Sistema Operativo:** Windows 10/11 (VM Recomendada).
+ * **Sistema Operativo:** Windows 10/11 | Server 2019 (VM Recomendada).
  * **Python 3.x** instalado.
- * **WinRAR** (Versión vulnerable < 7.02).
+ * **WinRAR** (Versión vulnerable < 7.12).
  * Librerías de Python:
      ```bash
      pip install flask
